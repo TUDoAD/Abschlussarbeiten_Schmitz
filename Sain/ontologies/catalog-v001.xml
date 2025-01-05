@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1735651384339" name="https://nfdi4cat.org/ontologies/reac4cat_with_examples" uri="reac4cat_with_examples.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1735651384339" name="duplicate:https://w3id.org/nfdi4cat" uri="BaseOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1735651384339" name="duplicate:https://w3id.org/nfdi4cat" uri="BaseOntology_for_CSTR.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1735651384339" name="duplicate:https://w3id.org/nfdi4cat" uri="KG-DWSIM_CSTR_ELN.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1735651384339" name="duplicate:https://w3id.org/nfdi4cat" uri="KG-DWSIM_CSTR_ELN_output.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1735651384339" name="duplicate:https://w3id.org/nfdi4cat" uri="KG-DWSIM_EnzML_ELN.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1735651384339" name="duplicate:https://w3id.org/nfdi4cat" uri="KG-DWSIM_EnzML_ELN_output.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1735651384339" name="duplicate:https://w3id.org/nfdi4cat" uri="KG-DWSIM_EnzML_ELN_output_with_r4c_gca.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1735651384339" name="duplicate:https://w3id.org/nfdi4cat" uri="KG-DWSIM_EnzML_ELN_output_with_r4c_gca_robotted.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1735651384339" name="duplicate:https://w3id.org/nfdi4cat" uri="KG-DWSIM_EnzML_ELN_robotted.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1735651384339" name="https://w3id.org/nfdi4cat/" uri="KG-DWSIM_EnzML_ELN_output_with_r4c.owl"/>
+    </group>
+</catalog>
