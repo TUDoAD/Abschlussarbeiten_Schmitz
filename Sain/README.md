@@ -27,7 +27,7 @@ Then, the recorded data is used to automatically generate process simulations, r
 The working principle of the code to create the DWSIM-simulation files is depicted in the figure below. This is executed by the `run()` function contained in [DWSIM_modules.py](https://github.com/TUDoAD/Abschlussarbeiten_Schmitz/blob/main/Sain/DWSIM_modules.py)
 
 
-<img src="https://github.com/TUDoAD/Abschlussarbeiten_Schmitz/blob/main/Sain/Image/Picture2.png" alt="Image error" width="600">
+<img src="https://github.com/TUDoAD/Abschlussarbeiten_Schmitz/blob/main/Sain/Image/FigureB.png" alt="Image error" width="600">
 
 
 
