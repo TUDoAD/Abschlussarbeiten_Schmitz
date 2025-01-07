@@ -32,7 +32,9 @@ The working principle of the code to create the DWSIM-simulation files is depict
 
 
 ## Installation
-First, you need to install the [DWSIM](https://dwsim.org)-software. 
+Installation of  [DWSIM](https://dwsim.org)-software- Must be done- It is recommended to install the latest version of the DWSIM. Latest version as of today (07/01/2025) is dwsim_8.8.3
+Installation of Protege (Ontology Editor) (https://protege.stanford.edu/)- software- If ontology devlopment is part of scope, this software muste be downloaded
+
 
 Needed Python modules (list may not be complete!):
 ```
