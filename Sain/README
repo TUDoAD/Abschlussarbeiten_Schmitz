@@ -20,12 +20,14 @@ Furthermore, the data obtained by the process simulation is also stored in the k
 
 The overall workflow is depicted below, showing the overall data integration. Starting with laboratory data recorded in supplymentary file and relevant ELNs and rate of reaction, data is stored as a variable in Python and in a structured manner with the help of a tailored ontology as a knowledge graph. 
 Then, the recorded data is used to automatically generate process simulations, resulting in further insights and eased workflow from laboratory to process simulation data. 
+![Workflow](https://github.com/TUDoAD/Abschlussarbeiten_Schmitz/blob/main/Sain/Image/Picture1.png)
 
 The working principle of the code to create the DWSIM-simulation files is depicted in the figure below. This is executed by the `run()` function contained in [DWSIM_modules.py](https://github.com/TUDoAD/Abschlussarbeiten_Schmitz/blob/main/Sain/DWSIM_modules.py)
 
 
-![Workflow](https://github.com/TUDoAD/Abschlussarbeiten_Schmitz/blob/main/Sain/Image/Picture1.png)
-
+<h1 align="center">
+<img src="./image/Picture2.png" width="50%" />
+</h1>
 
 
 
