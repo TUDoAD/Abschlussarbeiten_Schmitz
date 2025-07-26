@@ -407,4 +407,3 @@ except KeyboardInterrupt:
 # Cleanup
 picam2.close()
 cv2.destroyAllWindows()
-
