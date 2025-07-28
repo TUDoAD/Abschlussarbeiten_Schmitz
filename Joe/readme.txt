@@ -1,1 +1,1 @@
-Please check out the readme files in the other repos and give a breif explanation that this is the code of your master thesis.
+Python code developed by Roberto Joe during his master thesis 'Automation of a Solvent Extraction Column and Reactor using Image-Based Optical Measurement'.
