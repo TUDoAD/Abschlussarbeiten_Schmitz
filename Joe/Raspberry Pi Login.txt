@@ -1,0 +1,9 @@
+Logging in into the Raspberry Pi
+
+Open Windows Powershell and make a secure login using the IP address of the Raspberry Pi (192.168.1.30)
+ssh enpro@192.168.1.30
+Enter the password of the Raspberry Pi (obtain it from Mathias)
+
+Install Real VNCViewer on the Computer/ Laptop/ Smartphone
+Enter the IP Address of the Raspberry Pi and give permission for access to the Raspberry Pi
+Browse through the files of the Raspberry Pi
