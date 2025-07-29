@@ -1,4 +1,4 @@
-Logging in into the Raspberry Pi
+--------LOGGING IN TO THE RASPBERRY PI---------
 
 Open Windows Powershell and make a secure login using the IP address of the Raspberry Pi (192.168.1.30)
 ssh enpro@192.168.1.30
@@ -7,3 +7,9 @@ Enter the password of the Raspberry Pi (obtain it from Mathias)
 Install Real VNCViewer on the Computer/ Laptop/ Smartphone
 Enter the IP Address of the Raspberry Pi and give permission for access to the Raspberry Pi
 Browse through the files of the Raspberry Pi
+
+--------SETTING UP THE RASPBERRY PI CAMERA---------
+Open the Terminal of the Raspberry Pi
+Enter the following code: libcamera-hello --timeout 10000000
+This will prompt the camera to show a live window. 
+The user can then adjust the focus of the camera using this live window.
