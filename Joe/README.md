@@ -2,6 +2,14 @@ Code of Roberto Joe's master thesis
 
 ## Automation of a DN15 Kühni Extraction Column and Reactor using Image-Based Optical Measurement 
 
+The objective of this master’s thesis was to develop a level measurement and control of a DN15 Kühni extraction column and reactor using an image-based optical measurement. The DN15 Kühni extraction column was part of a modular plant 
+and the objective was also to automate the modular plant such that the optical level measurement and control also works for different kinds of unit operations. The DN15 extraction column was not able to measure and control level at the 
+disengagement zone by using conventional level measurement techniques due to physical limitations of the setup, and this paved the way for an image-based optical level measurement and control. The idea of optical level measurement 
+started with a clear study into the specifications of the camera, lens and the single board computer which is capable to target a certain region (disengagement zone) of the Kühni extraction column and which can also cater to the 
+increased processing capacity that the optical level control demands. 
+
+
+
 The algorithm is designed to extract the level measurements of the top layer and the interfacial layer and 
 establish a control logic to maintain a fixed disengagement zone at the top of the DN15 Kühni extraction 
 column. The algorithm follows a defined process:
