@@ -15,7 +15,9 @@ phase until the algorithm is restarted or rebooted.
 
 Zone 1 will be the actual region that could have the presence of a top layer and an interfacial layer. Zone 2 will be the actual region
 that could have the presence of an interfacial layer only. 
+
 <img src="https://github.com/TUDoAD/Abschlussarbeiten_Schmitz/blob/main/Joe/Reference/Zone%20Selection.png?raw=true" alt="Image error" width="300"> 
+
 Zone 2 is a subset of Zone 1 and can be selected just below the outlet of the extract phase in the DN15 extraction column. Both these 
 zones need to be selected carefully such that none of the coordinates go outside the reactor at the disengagement zone. 
 
