@@ -32,10 +32,23 @@ zones need to be selected carefully such that none of the coordinates go outside
 
 
 
-Needed Python modules (list may not be complete!):
-```
-pip install owlready2
-pip install pythonnet
-pip install win32.com client
-```
+Python modules required for operation of Raspberry Pi Optical Level Control (for continuous measurement):
+1. cv2 
+2. os
+3. time
+4. numpy
+5. picamera2
+6. opcua
+7. pymodbus
+8. collections.deque
+9. datetime
+10. threading
+
+Python modules required for operation of Raspberry Pi Optical Level Control (for single image analysis):
+1. cv2
+2. tkinter
+3. tkinter.filedialog
+4. matplotlib.pyplot
+5. matplotlib.gridspace
+6. numpy
 
