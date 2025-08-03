@@ -3,7 +3,7 @@ Code of Roberto Joe's master thesis
 ## Automation of a DN15 Kühni Extraction Column and Reactor using Image-Based Optical Measurement 
 
 The algorithm is designed to extract the level measurements of the top layer and the interfacial layer and establish a control logic to maintain a fixed disengagement zone at the top of the DN15 Kühni extraction column. The algorithm follows a defined process:
-https://github.com/TUDoAD/Abschlussarbeiten_Schmitz/blob/main/Joe/Reference/Process%20Flowchart.png?raw=true
+<img src="https://github.com/TUDoAD/Abschlussarbeiten_Schmitz/blob/main/Joe/Reference/Process%20Flowchart.png?raw=true" alt="Image error" width="700">
 
 The algorithm starts by capturing an image using the Raspberry Pi HQ Camera which prompts the user to select the Region of Interest (ROI) and the two zones which would have the possible presence of layers, namely the top layer and the interfacial layer. 
 (https://github.com/TUDoAD/Abschlussarbeiten_Schmitz/blob/main/Joe/Reference/ROI%20Selection.png)
