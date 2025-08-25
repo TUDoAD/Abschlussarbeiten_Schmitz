@@ -1,3 +1,42 @@
+-------CHANGING IP ADDRESS OF THE RASPBERRY PI---------------
+(1) Open the command window of the Raspberry Pi, edit the DHCP client configuration
+sudo nano /etc/dhcpcd.conf
+
+(2) Add a static IP at the end
+interface eth0
+static ip_address=192.168.1.30/24 (enter the preferred IP address)
+static routers=192.168.1.1 (adjust the gateway if it is different)
+ 
+(3) Save and exit by pressing in the following order
+CTRL+O, Enter, CTRL+X
+
+(4) Open the command window of the Raspberry Pi and restart the network
+sudo systemctl restart dhcpcd
+
+or simply reboot by typing: sudo reboot
+
+CHECK IF THE IP ADDRESS OF THE RASPBERRY PI HAS CHANGED
+
+******IF NOT******
+(1) Open the command window of the Raspberry Pi and first ensure that the dhcpcd is running 
+systemctl status dhcpcd
+
+(2) If it is not active, we need to enable it:
+sudo systemctl enable dhcpcd
+sudo systemctl start dhcpcd
+
+(3) Make sure that Network Manager is not overriding it
+nmcli device show
+
+if the interface (eth0 or wlan0) is shown, then the Network Manager is managing the network and the following would have to be set
+
+For ethernet (eth0), use:
+nmcli con mod "Wired connection 1" ipv4.addresses 192.168.1.30/24
+nmcli con mod "Wired connection 1" ipv4.gateway 192.168.1.1
+nmcli con mod "Wired connection 1" ipv4.dns 192.168.1.1
+nmcli con mod "Wired connection 1" ipv4.method manual
+nmcli con up "Wired connection 1"
+
 --------LOGGING IN TO THE RASPBERRY PI---------
 
 Open Windows Powershell and make a secure login using the IP address of the Raspberry Pi (192.168.1.30)
